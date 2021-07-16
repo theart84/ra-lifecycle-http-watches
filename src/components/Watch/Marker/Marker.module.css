@@ -1,0 +1,14 @@
+.hour-marker,
+.minute-marker {
+    position: absolute;
+    transform-origin: bottom center;
+}
+
+.hour-marker {
+    width: 1px;
+    height: 74px;
+    background: black;
+}
+
+.minute-marker {
+}

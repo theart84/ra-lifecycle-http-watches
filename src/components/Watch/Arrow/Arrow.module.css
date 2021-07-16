@@ -1,0 +1,32 @@
+.watch-arrow {
+    position: absolute;
+    background: white;
+    transform-origin: bottom center;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+
+}
+
+.watch-arrow__second {
+    width: 1px;
+    height: 65px;
+    background: red;
+    left: calc(50% - (1px/ 2));
+    top: calc(50% - 65px);
+}
+
+
+.watch-arrow__minute {
+    width: 2px;
+    height: 50px;
+    left: calc(50% - (2px / 2));
+    top: calc(50% - 50px);
+}
+
+
+.watch-arrow__hour {
+    width: 4px;
+    height: 30px;
+    left: calc(50% - (4px / 2));
+    top: calc(50% - 30px);
+}

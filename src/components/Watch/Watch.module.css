@@ -1,0 +1,99 @@
+.watch-container {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.watch-title {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 18px;
+}
+
+.watch-body {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border: 1px solid #bdbec0;
+}
+
+.watch-face {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 1;
+}
+.watch-face:after {
+    content: "";
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 4px;
+    left: -69px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.watch-arrow {
+    position: absolute;
+    background: white;
+    transform-origin: bottom center;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+
+}
+
+.watch-arrow__second {
+    width: 1px;
+    height: 65px;
+    background: red;
+    left: calc(50% - (1px/ 2));
+    top: calc(50% - 65px);
+}
+
+
+.watch-arrow__minute {
+    width: 2px;
+    height: 50px;
+    left: calc(50% - (2px / 2));
+    top: calc(50% - 50px);
+}
+
+
+.watch-arrow__hour {
+    width: 4px;
+    height: 30px;
+    left: calc(50% - (4px / 2));
+    top: calc(50% - 30px);
+}
+
+
+.watch-delete {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.watch-delete:hover {
+    border-radius: 50%;
+    background-color: #0d6efd;
+    color: white;
+    transition: all 0.5s;
+}
