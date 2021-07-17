@@ -4,9 +4,7 @@ import { generateArray, convertTimeToDegree } from "../../utils/helpFunctions";
 import Marker from "./Marker/Marker";
 import Arrow from "./Arrow/Arrow";
 
-
 import classes from "./Watch.module.css";
-
 
 const hourOffset = new Date().getTimezoneOffset() / 60;
 
